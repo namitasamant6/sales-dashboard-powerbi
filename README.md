@@ -16,8 +16,8 @@ To analyse sales trends, profit performance, and customer purchasing behaviour a
 ## Dataset
 - **Source:** Kaggle (Sample Australia Sales Data)
 - **Tables:**
-  - `Details` — Order ID, Amount, Profit, Quantity, Category, Sub-Category, PaymentMode, Profit Margin%
-  - `Orders_Australia` — Order ID, Order Date, CustomerName, State, City
+  - `Details` Order ID, Amount, Profit, Quantity, Category, Sub-Category, PaymentMode, Profit Margin%
+  - `Orders_Australia` Order ID, Order Date, CustomerName, State, City
 - **Total Records:** 1,500 rows | 500 distinct orders
 
 ---
