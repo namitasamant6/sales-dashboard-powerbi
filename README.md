@@ -2,6 +2,7 @@
 # Australia Sales Dashboard – Power BI
 
 ![Dashboard Preview](dashboard_preview.png)
+![Dashboard Preview](profitability_preview.png)
 
 ## Project Overview
 An interactive Sales Dashboard built in Power BI as a personal side project to strengthen my data visualization and analytics skills. The dashboard provides a comprehensive view of sales performance across Australian states, product categories, and payment modes.
