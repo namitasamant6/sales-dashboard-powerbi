@@ -108,8 +108,8 @@ DIVIDE([Loss Making Orders], [Total Orders], 0) * 100
 - COD (Cash on Delivery) is the most preferred payment method at 35.45%
 - New South Wales contributes the highest sales at 18.11%
 - Printers and Long Skirts are the top-selling sub-categories
-- 49.60% of all orders are loss making — nearly half of all transactions are unprofitable
-- Long Skirt has the highest loss making orders (74) despite being a top seller — high volume but low profitability
+- 49.60% of all orders are loss making nearly half of all transactions are unprofitable
+- Long Skirt has the highest loss making orders (74) despite being a top seller high volume but low profitability
 - Victoria has the best profit per quantity at ~9.5, while South Australia is the least efficient at ~4
 
 ---
