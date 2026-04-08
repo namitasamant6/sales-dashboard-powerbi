@@ -35,10 +35,10 @@ To analyse sales trends, profit performance, and customer purchasing behaviour a
 
 ### Page 1 – Sales Overview
 **KPI Cards:**
-- Total Revenue — 438K
-- Total Quantity Sold — 5,615
-- Total Profit — 37K
-- Profit Margin % — 8.44%
+- Total Revenue = 438K
+- Total Quantity Sold = 615
+- Total Profit = 37K
+- Profit Margin % = 8.44%
 
 **Visuals:**
 - Sales by Category (Electronics, Clothing, Furniture)
@@ -57,14 +57,14 @@ To analyse sales trends, profit performance, and customer purchasing behaviour a
 
 ### Page 2 – Profitability Analysis
 **KPI Cards:**
-- Total Orders — 500
-- % Loss Making Orders — 49.60%
-- Average Order Value — $875.54
-- Loss Making Orders — 248
+- Total Orders = 500
+- % Loss Making Orders = 49.60%
+- Average Order Value = $875.54
+- Loss Making Orders = 248
 
 **Visuals:**
-- Loss Making Orders by Sub-Category (bar chart) — Long Skirt highest at 74 loss making orders
-- Profit per Quantity by State (bar chart) — Victoria leading at ~9.5
+- Loss Making Orders by Sub-Category (bar chart) Long Skirt highest at 74 loss making orders
+- Profit per Quantity by State (bar chart) Victoria leading at ~9.5
 
 **Filters/Slicers:**
 - Month
@@ -77,26 +77,26 @@ To analyse sales trends, profit performance, and customer purchasing behaviour a
 ## DAX Measures
 
 ```dax
-Total number of distinct orders
+-Total number of distinct orders
 Total Orders = 
 DISTINCTCOUNT(Details[Order ID])
 
-Average revenue per order
+-Average revenue per order
 Average Order Value = 
 DIVIDE(SUM(Details[Amount]), [Total Orders], 0)
 
-Count of orders where profit is negative
+-Count of orders where profit is negative
 Loss Making Orders = 
 CALCULATE(
     DISTINCTCOUNT(Details[Order ID]),
     Details[Profit] < 0
 )
 
-Profit earned per unit sold
+-Profit earned per unit sold
 Profit per Quantity = 
 DIVIDE(SUM(Details[Profit]), SUM(Details[Quantity]), 0)
 
-Percentage of orders that made a loss
+-Percentage of orders that made a loss
 % Loss Making Orders = 
 DIVIDE([Loss Making Orders], [Total Orders], 0) * 100
 ```
@@ -117,7 +117,7 @@ DIVIDE([Loss Making Orders], [Total Orders], 0) * 100
 ## Repository Structure
 ```
 sales-dashboard-powerbi
- ┣ Sales_Dashboard.pbix          Power BI file (if under 25MB)
+ ┣ Sales Dashboard_Australia.pbix          Power BI file
  ┣ dashboard_preview.png         Page 1 - Sales Overview screenshot
  ┣ profitability_preview.png     Page 2 - Profitability Analysis screenshot
  ┣ README.md                     Project documentation
@@ -127,7 +127,7 @@ sales-dashboard-powerbi
 
 ## How to Use
 1. Clone or download this repository
-2. Open `Sales_Dashboard.pbix` in Power BI Desktop
+2. Open `Sales Dashboard_Australia.pbix` in Power BI Desktop
 3. Use the slicers to filter the data
 4. Navigate between pages to explore different insights
 
