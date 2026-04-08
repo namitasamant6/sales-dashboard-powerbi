@@ -119,9 +119,9 @@ DIVIDE([Loss Making Orders], [Total Orders], 0) * 100
 ```
 sales-dashboard-powerbi
  ┣ Sales Dashboard_Australia.pbix          Power BI file
- ┣ dashboard_preview.png         Page 1 - Sales Overview screenshot
- ┣ profitability_preview.png     Page 2 - Profitability Analysis screenshot
- ┣ README.md                     Project documentation
+ ┣ dashboard_preview.png                   Page 1 - Sales Overview screenshot
+ ┣ profitability_preview.png               Page 2 - Profitability Analysis screenshot
+ ┣ README.md                               Project documentation
 ```
 
 ---
