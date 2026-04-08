@@ -136,5 +136,5 @@ sales-dashboard-powerbi
 ## Author
 **[Namita Samant]**
 Data Analyst | Power BI | DAX | SQL
-LinkedIn: [Your LinkedIn URL]
+LinkedIn: [in/namita-samant-2706b3129]
 GitHub: [https://github.com/namitasamant6]
