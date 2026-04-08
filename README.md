@@ -1,7 +1,7 @@
 [sales_dashboard_readme.md](https://github.com/user-attachments/files/26560176/sales_dashboard_readme.md)
 # Australia Sales Dashboard – Power BI
 
-![Dashboard Preview](dashboard_preview.png.png)
+![Dashboard Preview](dashboard_preview.png)
 
 ## Project Overview
 An interactive Sales Dashboard built in Power BI as a personal side project to strengthen my data visualization and analytics skills. The dashboard provides a comprehensive view of sales performance across Australian states, product categories, and payment modes.
